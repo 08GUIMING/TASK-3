@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片展示墙</title>
+    <style>
+      .cell.empty{
+        visibility: hidden;
+      }
+      body{
+        background-color: aliceblue;
+        text-align: center;
+        padding: 30px;
+      }
+      .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+      }
+      .cell{
+        width: 60px;
+        height: 60px;
+        background-color: aliceblue;
+        border: 1px solid;
+        border-radius: 8px;
+      }
+      .grid{
+        display: grid;
+        grid-template-columns: repeat(5,60px);
+        gap: 10px;
+      }
+      .cell.logo{
+        background-color: aliceblue;
+        border-color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo img{
+        width: 72%;
+      }
+      .wall{
+        background-color: aliceblue;
+        border: 2px solid beige;
+        border-radius: 16px;
+        padding: 16px;
+      }
+      
+    </style>
+    
+</head>
+<body>
+<div class="gallery"></div>
+ <div class="wall">
+  <div class="grid">
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell empty"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell logo">
+      <img src="c:\Users\Administrator\Desktop\新建文件夹\屏幕截图 2026-10-14 213956.png" alt="微光">
+    </div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell empty"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+    <div class="cell"></div>
+    <div class="cell empty"></div>
+    <div class="cell empty"></div>
+ </div>
+  </div>
+        <div class="wall">
+      <div class="grid">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell empty"></div>
+        <div class="cell empty"></div>
+        <div class="cell empty"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell empty"></div>
+        <div class="cell logo">
+          <img src="c:\Users\Administrator\Desktop\新建文件夹\屏幕截图 2026-10-14 213956.png" alt="微光">
+        </div>
+        <div class="cell empty"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell empty"></div>
+        <div class="cell empty"></div>
+        <div class="cell empty"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
